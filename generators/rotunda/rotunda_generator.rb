@@ -14,7 +14,7 @@ class RotundaGenerator < Rails::Generator::Base
 
       # Copy stylesheets      
       stylesheets = %w(rotunda rotunda_changes)
-      stylesheets.each { |d| m.file "#{f}.css", File.join(stylesheets_dir, "#{f}.css") }
+      stylesheets.each { |f| m.file "#{f}.css", File.join(stylesheets_dir, "#{f}.css") }
     end
   end
   
