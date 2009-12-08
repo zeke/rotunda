@@ -1,0 +1,20 @@
+= Rotunda
+
+A coupla Rails view helpers and accompanying CSS styles for making simple rounded form buttons and links.
+
+== Installation
+
+  cd my_rails_app
+  script/plugin install git://github.com/zeke/rotunda.git
+
+== Usage
+
+There are three helper methods, each one behaving just like their non-rounded Rails counterpart..
+
+  = rounded_link_to("I'm a Link", "http://example.com")
+  = rounded_button("I'm a Button")
+  = rounded_link_to_function("Say Hello to JS", "alert('hello')")
+
+
+
+Copyright (c) 2009 Zeke Sikelianos, released under the MIT license
