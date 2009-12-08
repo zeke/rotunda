@@ -1,6 +1,6 @@
 = Rotunda
 
-A few Rails view helpers and accompanying CSS styles and images for making simple, solid-colored, rounded form buttons and links (without Javascript). Tested in Firefox 3.5, IE 7, Safari 4, Chrome 4.
+Rotunda provides a few Rails view helpers for making simple, solid-colored, rounded form buttons and links. Rotunda uses images and CSS (no javascript) to create the rounded corner effect. The images are just used for the corners and not the button background itself, so your buttons can have any background color you want. Your page's background must be white, otherwise you'll see the little white corner images. Tested in Firefox 3.5, IE 7, Safari 4, Chrome 4. IE6 support is possible but not yet tested.
 
 == Installation
 
