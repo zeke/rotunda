@@ -1,6 +1,6 @@
 = Rotunda
 
-A few Rails view helpers and accompanying CSS styles for making simple rounded form buttons and links (without Javascript). Tested in Firefox 3.5, IE 7, Safari 4, Chrome 4.
+A few Rails view helpers and accompanying CSS styles and images for making simple, solid-colored, rounded form buttons and links (without Javascript). Tested in Firefox 3.5, IE 7, Safari 4, Chrome 4.
 
 == Installation
 
@@ -23,7 +23,7 @@ There are three helper methods, each one behaving just like their non-rounded Ra
 
 == To Do
 
-* Add IE6 hover support using [Whatever:hover]{http://www.xs4all.nl/~peterned/csshover.html}
+* Add IE6 hover support using {Whatever:hover}[http://www.xs4all.nl/~peterned/csshover.html]
 
 == Credit
 
