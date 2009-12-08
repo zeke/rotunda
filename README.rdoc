@@ -1,12 +1,12 @@
 = Rotunda
 
-A coupla Rails view helpers and accompanying CSS styles for making simple rounded form buttons and links.
+A few Rails view helpers and accompanying CSS styles for making simple rounded form buttons and links (without Javascript). Tested in Firefox 3.5, IE 7, Safari 4, Chrome 4.
 
 == Installation
 
   cd my_rails_app
   script/plugin install git://github.com/zeke/rotunda.git
-  script/generate rotunda # copies images and stylesheerts to public directory
+  script/generate rotunda # copies images and stylesheets to public directory
   
 Drop this in your application layout:
 
@@ -20,6 +20,10 @@ There are three helper methods, each one behaving just like their non-rounded Ra
   = rounded_link_to("I'm a Link", "http://example.com")
   = rounded_button("I'm a Button")
   = rounded_link_to_function("Say Hello to JS", "alert('hello')")
+
+== To Do
+
+* Add IE6 hover support using [Whatever:hover]{http://www.xs4all.nl/~peterned/csshover.html}
 
 == Credit
 
