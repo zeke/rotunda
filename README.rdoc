@@ -6,6 +6,12 @@ A coupla Rails view helpers and accompanying CSS styles for making simple rounde
 
   cd my_rails_app
   script/plugin install git://github.com/zeke/rotunda.git
+  script/generate rotunda # copies images and stylesheerts to public directory
+  
+Drop this in your application layout:
+
+  stylesheet_link_tag("rotunda")
+  stylesheet_link_tag("rotunda_changes") # If you want to customize styles
 
 == Usage
 
@@ -15,6 +21,6 @@ There are three helper methods, each one behaving just like their non-rounded Ra
   = rounded_button("I'm a Button")
   = rounded_link_to_function("Say Hello to JS", "alert('hello')")
 
-
+== Credit
 
 Copyright (c) 2009 Zeke Sikelianos, released under the MIT license

@@ -1,0 +1,44 @@
+/*
+	DON'T EDIT THIS FILE!
+	Override any styles in rotunda_changes.css
+*/
+
+div.rounded {
+  float: left;
+  width: auto;
+  height: 24px;
+  margin-right: 10px; }
+  div.rounded.no_float {
+    float: none;
+    clear: both;
+    margin-right: 0; }
+  div.rounded a, div.rounded button {
+    outline: none;
+    display: block;
+    float: left;
+    overflow: hidden;
+    border: none;
+    height: 24px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    background: transparent url(../images/rotunda/3x24_left.png) no-repeat left top;
+    background-color: #8a0016;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer; }
+    div.rounded a span, div.rounded button span {
+      background: transparent url(../images/rotunda/3x24_right.png) no-repeat right top;
+      margin: 0;
+      display: block;
+      line-height: 18px;
+      padding: 3px 8px 3px 0; }
+    div.rounded a:hover, div.rounded button:hover {
+      background-color: #b20022; }
+
+/* Firefox does some weird padding on buttons */
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }

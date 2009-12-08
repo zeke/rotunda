@@ -1,0 +1,5 @@
+Description:
+    Copies necessary image and styles into the public directory
+
+Example:
+    ./script/generate rotunda
