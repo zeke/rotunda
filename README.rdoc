@@ -10,8 +10,8 @@ Rotunda provides a few Rails view helpers for making simple, solid-colored, roun
   
 Drop this in your application layout:
 
-  stylesheet_link_tag("rotunda")
-  stylesheet_link_tag("rotunda_changes") # If you want to customize styles
+  = stylesheet_link_tag("rotunda")
+  = stylesheet_link_tag("rotunda_changes") # If you want to customize styles
 
 == Usage
 
